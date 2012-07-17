@@ -20,12 +20,13 @@
       <?php endfor ?>
     </select>
   </div>
-   <?php if (fz_config_get('app', 'start_from_display')): ?>   
-    <div id="start-from">
+    <?php $display = fz_config_get ('app', 'start_from_display', true);
+          if ($display == true): ?>  
+          <div id="start-from">
 		<label for="input-start-from"><?php echo __('Starts from') ?> :</label>
 		<input type="text" id="input-start-from" name="start-from" value="<?php echo $start_from ?>" alt="<?php echo __('Select a starting date') ?>" />
 	  </div>
-  <?php endif ?>
+   <?php endif ?>
   <div id="comment">
     <label for="input-comment"><?php echo __('Comments') ?> :</label>
     <input type="text" id="input-comment" name="comment" value="" alt="<?php echo __('Add a comment (optional)') ?>" maxlength="200" />
