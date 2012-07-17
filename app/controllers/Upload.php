@@ -110,8 +110,10 @@ class App_Controller_Upload extends Fz_Controller {
             if ($lifetime > $maxLifetime)
                 $lifetime = $maxLifetime;
         }
-
-        $availableFrom  = array_key_exists ('start-from', $post) ? $post['start-from'] : null;
+        $display = fz_config_get ('app', 'start_from_display', true);
+        if ($display == true){
+            $availableFrom  = array_key_exists ('start-from', $post) ? $post['start-from'] : null;
+        }
         $availableFrom  = new Zend_Date ($availableFrom, Zend_Date::DATE_SHORT);
         $availableUntil = clone ($availableFrom);
         $availableUntil->add ($lifetime, Zend_Date::DAY);
