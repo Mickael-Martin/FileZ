@@ -45,6 +45,9 @@ user_quota = 2G
 ; Hide start_from (date) field to upload file. Default :true
 start_from_display= false
 
+;Use antivirus
+antivirus = clamscan
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Cron Job
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
