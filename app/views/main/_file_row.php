@@ -4,7 +4,7 @@
 <div class="file-description">
   <img src="<?php echo get_mimetype_icon_url ($file->getMimetype ()) ?>" class="mimetype" />
   <p class="filename">
-    <a href="<?php echo $file->getDownloadUrl () ?>">
+    <a href="<?php echo $file->getDownloadUrl () ?>" title="<?php echo h ($file->file_name) ?>">
       <?php echo h (truncate_string ($file->file_name, 40)) ?>
     </a>
   </p>
