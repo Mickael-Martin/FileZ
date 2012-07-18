@@ -87,7 +87,7 @@ msgstr ""
 "\n"
 "\n"
 "\n"
-"-----NE REPONDEZ PAS A CE MESSAGE ! Il a été généré automatiquement, votre réponse n'aboutirait pas !"
+"----- NE REPONDEZ PAS A CE MESSAGE ! Il a été généré automatiquement, votre réponse n'aboutirait pas ! -----"
 
 #: /home/marcelf/filez/app/controllers/Upload.php:157
 msgid "[FileZ] \"%file_name%\" uploaded successfuly"
@@ -106,7 +106,7 @@ msgstr ""
 "\n"
 "\n"
 "\n"
-"-----NE REPONDEZ PAS A CE MESSAGE !Il a été généré automatiquement, votre réponse n'aboutirait pas !"
+"----- NE REPONDEZ PAS A CE MESSAGE !Il a été généré automatiquement, votre réponse n'aboutirait pas ! -----"
 
 #: /home/marcelf/filez/app/controllers/Upload.php:237
 msgid "The file was successfuly uploaded"
@@ -262,7 +262,7 @@ msgstr "Envoyé par"
 #: /home/marcelf/filez/app/views/file/preview.php:29
 #: /home/marcelf/filez/app/views/main/index.php:29
 msgid "Comments"
-msgstr "Commentaire"
+msgstr "Commentaires"
 
 #: /home/marcelf/filez/app/views/file/preview.php:38
 #: /home/marcelf/filez/app/views/file/preview.php:63
@@ -284,7 +284,7 @@ msgstr "Vous devez entrer un mot de passe pour pouvoir télécharger ce fichier"
 #: /home/marcelf/filez/app/views/file/preview.php:67
 #, fuzzy
 msgid "The file is not available yet"
-msgstr "Le fichier n'est pas encore disponible au téléchargement"
+msgstr "Le fichier n'est pas ou plus disponible au téléchargement"
 
 #: /home/marcelf/filez/app/views/file/_mailForm.php:4
 msgid "Email addresses (space separated)"
@@ -543,7 +543,7 @@ msgstr "non"
 
 #: /home/marcelf/filez/app/views/user/edit.php:1
 msgid "Edit user"
-msgstr "Modifier l'utilisateur "
+msgstr "Modifier l'utilisateur"
 
 #: /home/marcelf/filez/app/views/user/edit.php:12
 msgid "email"
